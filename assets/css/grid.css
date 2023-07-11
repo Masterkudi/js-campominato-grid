@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between
+}
+
+.logo {
+    width: 4rem;
+}
+
+.title {
+    line-height: 2.5rem;
+}
+
+.btn, select {
+    border-radius: 0px;
+}
+
+.main-container {
+    background-color: #7FFFD4;
+    width: 100%;
+}
+
+.grid-container {
+    padding: 4rem;
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    aspect-ratio: 1/1;
+  }
+
+  .grid-square {
+    aspect-ratio: 1/1;
+    border: 1px solid green;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
