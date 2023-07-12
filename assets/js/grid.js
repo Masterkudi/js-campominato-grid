@@ -1,7 +1,5 @@
-
 const squareCellsSelect = document.querySelector("[name='square-cells']");
 const btnPlay = document.querySelector("#btn-play");
-
 
 const gridContainer = document.querySelector(".grid-container");
 
@@ -21,7 +19,6 @@ function onBtnClick() {
 
 }
 
-
 function createSingleSquare(squareContent, squareCells) {
     const square = document.createElement("div");
   
@@ -39,8 +36,7 @@ function createSingleSquare(squareContent, squareCells) {
     return square;
   }
   
-
-  function createGrid(squaresNumber) {
+function createGrid(squaresNumber) {
     const grid = [];
   
     for (let i = 0; i < squaresNumber; i++) {
@@ -53,8 +49,7 @@ function createSingleSquare(squareContent, squareCells) {
     // Output
     return grid;
   }
-  
- 
+
   function printGrid(container, squaresList) {
     // reset del contenuto del container per evitare che ci siano altri div creati precedentemente
     container.innerHTML = "";
